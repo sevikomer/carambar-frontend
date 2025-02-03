@@ -1,0 +1,82 @@
+/* Style global du body */
+body {
+    background-color: #fdf100;  /* Couleur de fond douce */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;  /* Texte en gris foncé pour un bon contraste */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style du conteneur principal */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    margin-left: 50px auto;
+    margin-right: 50px auto;
+    margin-bottom: 1px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Ombre subtile */
+}
+
+/* Style du titre */
+h1 {
+    font-size: 2.5rem;
+    color: #5D5C61;  /* Une couleur douce et élégante pour le titre */
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 200px;  /* Définit la largeur de ton logo (en px, em, %, etc.) */
+    height: auto;  /* Garde les proportions de l'image */
+    margin-top: 20px;  /* Ajoute de l'espace au-dessus du logo */
+    margin-bottom: 20px;  /* Ajoute de l'espace en dessous du logo */
+    max-width: 100%;  /* Assure que le logo ne dépasse pas la largeur du conteneur parent */
+}
+
+#background {
+    width: 1200px;  /* Définit la largeur de ton logo (en px, em, %, etc.) */
+    height: auto;  /* Garde les proportions de l'image */
+    margin-bottom: 20px;  /* Ajoute de l'espace en dessous du logo */
+    max-width: 100%;  /* Assure que le logo ne dépasse pas la largeur du conteneur parent */
+}
+
+/* Style pour l'affichage de la blague */
+#jokeText {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Style du bouton */
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #e1007a;  /* Un bleu attrayant */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;  /* Effet de transition pour le changement de couleur */
+}
+
+button:hover {
+    background-color: #fdf100;  /* Changement de couleur au survol */
+}
+
+button:focus {
+    outline: none;  /* Retirer le contour au focus */
+}
+
+/* Style de la boîte de message d'erreur */
+#errorMessage {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 4px;
+    display: none;
+}
