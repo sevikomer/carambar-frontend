@@ -1,5 +1,5 @@
 document.getElementById('jokeButton').addEventListener('click', async () => {
-    const response = await fetch('http://localhost:4200/api/blagues/random');
+    const response = await fetch('https://carambar-backend-mqoj.onrender.com/api/blagues/random');
 
     if (!response.ok) {
         document.getElementById('errorMessage').style.display = 'block';  // Afficher le message d'erreur
