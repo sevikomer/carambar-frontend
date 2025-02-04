@@ -1,9 +1,9 @@
 /* Style global du body */
 body {
-    background-color: #fdf100;  /* Couleur de fond douce */
+    background-color: #fdf100; 
     text-align: center;
     font-family: Arial, sans-serif;
-    color: #333;  /* Texte en gris foncé pour un bon contraste */
+    color: #333; 
     margin: 0;
     padding: 0;
 }
@@ -18,29 +18,31 @@ body {
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Ombre subtile */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 /* Style du titre */
 h1 {
     font-size: 2.5rem;
-    color: #5D5C61;  /* Une couleur douce et élégante pour le titre */
+    color: #5D5C61;  
     margin-bottom: 20px;
 }
 
+/* Style du logo */
 #logo {
-    width: 200px;  /* Définit la largeur de ton logo (en px, em, %, etc.) */
-    height: auto;  /* Garde les proportions de l'image */
-    margin-top: 20px;  /* Ajoute de l'espace au-dessus du logo */
-    margin-bottom: 20px;  /* Ajoute de l'espace en dessous du logo */
-    max-width: 100%;  /* Assure que le logo ne dépasse pas la largeur du conteneur parent */
+    width: 200px;  
+    height: auto; 
+    margin-top: 20px;  
+    margin-bottom: 20px;  
+    max-width: 100%;  
 }
 
+/* Style de l'image en fond */
 #background {
-    width: 1200px;  /* Définit la largeur de ton logo (en px, em, %, etc.) */
-    height: auto;  /* Garde les proportions de l'image */
-    margin-bottom: 20px;  /* Ajoute de l'espace en dessous du logo */
-    max-width: 100%;  /* Assure que le logo ne dépasse pas la largeur du conteneur parent */
+    width: 1200px; 
+    height: auto;  
+    margin-bottom: 20px; 
+    max-width: 100%; 
 }
 
 /* Style pour l'affichage de la blague */
@@ -55,20 +57,20 @@ h1 {
 button {
     padding: 12px 25px;
     font-size: 18px;
-    background-color: #e1007a;  /* Un bleu attrayant */
+    background-color: #e1007a;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease;  /* Effet de transition pour le changement de couleur */
+    transition: background-color 0.3s ease; 
 }
 
 button:hover {
-    background-color: #fdf100;  /* Changement de couleur au survol */
+    background-color: #fdf100;  
 }
 
 button:focus {
-    outline: none;  /* Retirer le contour au focus */
+    outline: none;  
 }
 
 /* Style de la boîte de message d'erreur */
